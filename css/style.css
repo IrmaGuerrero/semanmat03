@@ -1,0 +1,34 @@
+.lista-maestros {
+    list-style: none;
+margin-top: 20px;
+}
+.lista-maestros li p{
+margin-block-end: 0px;  
+   margin-top: 1rem;
+}
+.lista-maestros li{
+    text-align: left;
+    line-height : 18px;
+    font-size: 1rem;
+}
+.lista-maestros li span {
+    font-size: 1rem;
+    color:#9e9e9e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.organizador {
+    margin-top: 20px;
+}
+.organizador li{
+    margin-top: 1rem;
+list-style: none;
+font-size: 1rem;
+text-align: left;
+}
+.programas{
+    text-align: center;
+    margin:2rem 0;
+}
+.ubicacion{
+    font-size: 0.8rem;
+}

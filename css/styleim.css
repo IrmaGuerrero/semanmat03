@@ -1,0 +1,266 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: "Source Sans Pro";
+    font-weight: 200;
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+p{
+    margin:0;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+}
+
+.h,
+.h-interno{
+    Display:flex;
+    justify-content: center;
+    background: rgb(11,139,153);
+    background: linear-gradient(90deg, rgba(11,139,153,1) 0%, rgba(13,134,152,1) 20%, rgba(46,49,141,1) 70%, rgba(46,49,141,1) 100%);
+    color: #fff;
+    margin:none;
+    padding:0;           
+}
+
+.h img{
+    max-width: 1200px;
+    width: 100%;
+    height: 50%;
+}
+.h-interno img{
+    max-width: 800px;
+    width: 100%;
+}
+/*Navegacion*/
+
+.nav1{
+    background: #0096DB;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin:0;
+}
+.text-nav{
+    list-style: none;
+    padding:1rem;
+    font-size: 1.2rem;
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.text-nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-nav:hover{
+    background: #153D55; 
+
+}
+.menu_bar{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .nav1{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .text-nav{
+        text-align: left;
+        border-bottom: 1px solid #9ed8ff;
+        max-width: 100%;
+        display: none;
+    }
+    .menu_bar{
+        display: block;
+        background: #0096DB;
+        padding: 20px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    .barras{
+        width: 50px;
+        height: 7px;
+        background-color: #fff;
+        margin: 7px;
+    }
+}
+.Intro{
+    background: #153D55;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+.cabecera{
+    margin: 0;
+    padding-top: 3.5rem;  
+    text-align: center;
+}
+.cabecera-interneas{
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;   
+}
+
+p.intro{
+    max-width: 900px;
+    line-height: 2rem;
+    text-align: center;
+    margin:0 auto;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.intro:last-child{
+    padding-bottom:  50px;
+}
+
+p.intro:first-of-type{
+    line-height: 1rem;
+    padding-bottom: 20px;
+}
+p.intro:nth-child(2){
+    line-height: 1rem;
+}
+
+p.intro:nth-child(3){
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+p.intro:nth-child(4){
+    line-height: 1rem;
+    padding-bottom:  20px;
+    font-size: 1rem;
+}
+.hijo {
+    margin: 3rem;
+}
+.hijo p{
+    margin: 1rem 0;
+    line-height: 2rem;
+
+}
+
+.dirigido p span{
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (min-width: 768px){
+    .dirigido{
+        display: grid;
+        grid-template-columns: 33% 67%;
+        
+    }
+    .hijo h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5rem 0;
+    }
+}
+/*contenido*/
+
+.contenido{
+    max-width: 900px;
+    line-height: 2rem;
+    text-align: left;
+    margin: 30px auto;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+span {
+    font-weight: bold;
+}
+span .italic{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.math-secc{
+    font-weight: 400;
+    color:black ;
+    max-width: 1100px;
+    line-height: 2rem;
+    text-align: left;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom:  0px;
+}
+.compreso p span{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.compreso p{
+    line-height: 1.2rem;
+}
+.compreso {
+    line-height: 1rem;
+    margin: 10px 0px;
+}
+
+.festival-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:1rem;
+    background-color:#0096DB;
+    margin:2rem auto;
+    color:white;
+    border-radius: 10%;
+    width: 70px;
+    height: 20px;
+    text-decoration: none;
+
+}
+.text-lista{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+.text-lista a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.center{
+    text-align: center;
+}
+.margin{
+    margin: 20px;
+}
+footer{
+    background-color: #153D55;
+    color:#fff;
+    padding:30px;
+    margin: 30px 0 0 0;
+    max-width: 100%;
+}
+.footer{
+    margin:auto;
+    max-width: 600px;
+}
+.social{
+    fill: white;
+}
